@@ -7,18 +7,19 @@
 </head>
 	<div class="container">
     <div class="left">
+	  <img style="display: none">
       <h1>facebook</h1>
       <p>Connect with friends and the world around you on Facebook.</p>
     </div>
     <div class="right">
       <div class="login-form">
         <form>
-          <input type="text" placeholder="Email or phone number" class="input-field" required>
+          <input id="email" type="text" placeholder="Email or phone number" class="input-field" required>
           <input type="password" placeholder="Password" class="input-field" required>
           <button type="submit" class="login-btn">Log In</button>
-          <a href="#" class="forgot-link">Forgotten account?</a>
+          <a href="/recover/initiate" class="forgot-link">Forgotten account?</a>
           <div class="divider"></div>
-          <button type="button" class="create-btn">Create new account</button>
+          <button type="button" class="create-btn signup">Create new account</button>
         </form>
       </div>
     </div>
