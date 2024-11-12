@@ -56,8 +56,12 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.login-form form {
+	width: 100%;
+}
+
 .input-field {
-  width: 100%;
+  width: 94%;
   padding: 12px;
   margin-bottom: 12px;
   border: 1px solid #dddfe2;
@@ -101,7 +105,10 @@ body {
 }
 
 .create-btn {
-  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 94%;
   padding: 12px;
   font-size: 1rem;
   background-color: #42b72a;
